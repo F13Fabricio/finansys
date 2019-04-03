@@ -1,3 +1,40 @@
-<p>
-  category-list works!
-</p>
+<p-breadcrumb [model]="items"></p-breadcrumb>
+
+<div class="row my-4">
+  <div class="col-md">
+    <h1 class="h2 border-left pl-2 mb-4">
+      Categorias
+    </h1>
+  </div>
+
+  <div class="col-md">
+    <button
+      pButton type="button"
+      routerLink="new"
+      icon="pi pi-plus"
+      label="Criar Categoria"
+      class="ui-button-raised ui-button-success float-right"
+    ></button>
+  </div>
+</div>
+
+<table class="table table-hover">
+  <thead>
+    <tr class="bg-primary text-light">
+      <th>Categoria</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <strong>Lazer</strong>
+        <small>Cinema, parque, praia, etc.</small>
+      </td>
+      <td>
+        <button [routerLink]="[ 12, 'edit' ]" class="btn btn-outline-info btn-sm">Editer</button>
+        <button  class="btn btn-outline-danger btn-sm">Editer</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
