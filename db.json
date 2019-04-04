@@ -1,7 +1,19 @@
 {
   "categories": [
-    { "id": 1, "name": "Moradia", "description": "Pagamento das contas da casa" },
-    { "id": 2, "name": "Mercado", "description": "Compras da semana no mercado" },
-    { "id": 3, "name": "Tranporte", "description": "Créditos no Bilhete único" }
+    {
+      "id": 1,
+      "name": "Moradia",
+      "description": "Pagamento das contas da casa"
+    },
+    {
+      "id": 2,
+      "name": "Mercado",
+      "description": "Compras da semana no mercado"
+    },
+    {
+      "id": 3,
+      "name": "Tranporte",
+      "description": "Créditos no Bilhete único"
+    }
   ]
 }

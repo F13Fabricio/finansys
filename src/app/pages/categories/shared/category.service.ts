@@ -10,7 +10,7 @@ import { Category } from './category';
 })
 export class CategoryService {
 
-  private readonly API = ''
+  private readonly API = 'http://localhost:3000/categories'
 
   //categories: Category[];
 
